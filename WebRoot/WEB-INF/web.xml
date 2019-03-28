@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZhuyeServlet</servlet-name>
+    <servlet-class>com.servlet.ZhuyeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XiangqingServlet</servlet-name>
+    <servlet-class>com.servlet.XiangqingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GfphbServlet</servlet-name>
+    <servlet-class>com.servlet.GfphbServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.servlet.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PhbServlet</servlet-name>
+    <servlet-class>com.servlet.PhbServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DengluServlet</servlet-name>
+    <servlet-class>com.servlet.DengluServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SousuoServlet</servlet-name>
+    <servlet-class>com.servlet.SousuoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HoutaiServlet</servlet-name>
+    <servlet-class>com.servlet.HoutaiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Houtai2Servlet</servlet-name>
+    <servlet-class>com.servlet.Houtai2Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Houtai3Servlet</servlet-name>
+    <servlet-class>com.servlet.Houtai3Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Houtai4Servlet</servlet-name>
+    <servlet-class>com.servlet.Houtai4Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Houtai5Servlet</servlet-name>
+    <servlet-class>com.servlet.Houtai5Servlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ZhuyeServlet</servlet-name>
+    <url-pattern>/zhuye.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XiangqingServlet</servlet-name>
+    <url-pattern>/xiangqing.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GfphbServlet</servlet-name>
+    <url-pattern>/gfphb.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/comment.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PhbServlet</servlet-name>
+    <url-pattern>/phb.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DengluServlet</servlet-name>
+    <url-pattern>/denglu.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SousuoServlet</servlet-name>
+    <url-pattern>/sousuo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HoutaiServlet</servlet-name>
+    <url-pattern>/houtai.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Houtai2Servlet</servlet-name>
+    <url-pattern>/houtai2.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Houtai3Servlet</servlet-name>
+    <url-pattern>/houtai3.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Houtai4Servlet</servlet-name>
+    <url-pattern>/houtai4.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Houtai5Servlet</servlet-name>
+    <url-pattern>/houtai5.do</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

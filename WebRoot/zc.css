@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #efefef;}
+.g-hd{
+	height: 130px;
+	width:auto;
+	}
+.g-in{
+    width: 1000px;
+    margin: 0 auto;}
+.m-logo{
+	float: left;
+    width: 300px;
+    height: 60px;
+    background-position: -50px -18px;
+    margin-top: 35px;
+	background:url(image/zc.png) no-repeat;}
+.m-tr-block{
+    float: right;
+    font-size: 18px;
+    margin-top: 50px;}
+.m-tr-block a{
+    text-decoration: none;
+    color: #ca5252;}
+.g-bd{
+    position: relative;
+    width: 1000px;
+    padding-bottom: 55px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 3px 3px #cbc9c9;}
+.m-opr{
+    height: 620px;
+    margin-top: 0;}
+.bind-phone-form{
+	margin: 0;
+    padding: 0;
+    outline: none;}
+.u-input{
+    position: relative;
+    float: left;
+    height: 72px;
+    width: 100%;}
+.u-label {
+    float: left;
+    width: 340px;
+    text-align: right;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 45px;
+    color: #333;
+}
+.i-inpt {
+    float: left;
+    height: 44px;
+    width: 320px;
+    margin-top: 12px;
+    border: solid 1px #ddd;
+    font-size: 16px;
+    text-indent: 0.5em;}
+.u-note {
+    height: 22px;
+    line-height: 22px;
+    color: #999;
+}
+.m-opr .i-inpt.smsize {
+    width: 190px;
+}
+.m-opr .btn-getsms-btndisabled {
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+    cursor: default;
+    background-color: #a1d1f6;
+}
+
+.m-opr .b-btn {
+    float: left;
+    border: 0;
+    width: 322px;
+    height: 46px;
+    margin-top: 12px;
+    background-color: #ca5252;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 46px;}
+.m-opr .btn-reg.btndisabled {
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+    cursor: default;
+}
+.m-opr .btn-getsms {
+    float: left;
+    height: 46px;
+    width: 120px;
+    font-size: 16px;
+    line-height: 46px;
+    margin: 12px 0 0 10px;
+    color: #fff;
+    background: #4ba7e0;
+    text-align: center;
+}
+.m-opr .tip {
+    margin-top: 10px;
+    color: #b1b1b1;
+    float: left;
+    width: 322px;
+    font-size: 12px;
+}
+.m-opr .tip a {
+    text-decoration: none;
+    color: #b1b1b1;
+    line-height: 20px;
+}
+.g-in {
+    width: 1000px;
+    margin: 0 auto;
+}
+.m-cp {
+    padding: 30px 0;
+}
+.m-cp p {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.m-cp p, .m-cp p a {
+    color: #b1b1b1;
+}
+.m-cp p {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.m-cp p, .m-cp p a {
+    color: #b1b1b1;
+}
+
+
+
+
+
+
+
+body{
+    font: 12px/1.14 "Microsoft YaHei","微软雅黑","宋体",helvetica,"Hiragino Sans GB";}
+
+input{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;}
+*{
+	font-family: "Microsoft YaHei", 微软雅黑, 宋体, helvetica, "Hiragino Sans GB";}
